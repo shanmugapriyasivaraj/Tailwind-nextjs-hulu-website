@@ -6,7 +6,7 @@ export default {
     url: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
   },
   fetchTopRated: {
-    title: "Trending",
+    title: "TopRated",
     url: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
   },
   fetchActionMovies: {
